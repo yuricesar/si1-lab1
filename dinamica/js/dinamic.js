@@ -1,5 +1,5 @@
 function addLista2(add){
-  var p = document.getElementById('Foo2');
+  var p = document.getElementById('aprendido');
   var filhos = p.childNodes;
   var li = document.createElement('li');
   li.innerHTML = add;
@@ -8,7 +8,7 @@ function addLista2(add){
 }
   
 function removeLista(add) {
-  var p = document.getElementById('Foo');
+  var p = document.getElementById('desejado');
   var filhos = p.childNodes;
   var n,t = p.size;
   for(i = filhos.length - 1; i >= 0; i--) {
@@ -23,7 +23,7 @@ function removeLista(add) {
 }
 
 function addLista(add) {
-  var p = document.getElementById('Foo');
+  var p = document.getElementById('desejado');
   var filhos = p.childNodes;
   var li = document.createElement('li');
   li.innerHTML = add;
